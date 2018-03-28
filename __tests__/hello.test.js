@@ -18,7 +18,7 @@ describe('hello', () => {
 
   it('implement tests here', () => {
     return wrapped.run({}).then((response) => {
-      expect(response).toBeDefined();
+      expect(false).toBe(true);
     });
   });
 });
