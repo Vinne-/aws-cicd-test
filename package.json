@@ -1,0 +1,24 @@
+{
+  "name": "hello-world-cicd-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "dependencies": {
+    "serverless-jest-plugin": "^0.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinne-/aws-cicd-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vinne-/aws-cicd-test/issues"
+  },
+  "homepage": "https://github.com/Vinne-/aws-cicd-test#readme"
+}
