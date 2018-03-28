@@ -17,6 +17,9 @@ service: hello-world-cicd-test
 # Check out our docs for more details
 # frameworkVersion: "=X.X.X"
 
+plugins:
+  - serverless-jest-plugin
+  
 provider:
   name: aws
   runtime: nodejs6.10
