@@ -4,7 +4,7 @@
   "description": "",
   "main": "handler.js",
   "dependencies": {
-    "serverless-jest-plugin": "^0.1.6"
+    "@lagenhetsbyte/serverless-jest-plugin": "^0.1.6"
   },
   "devDependencies": {},
   "scripts": {

@@ -5,7 +5,7 @@
 
 const mod = require('./../handler');
 
-const jestPlugin = require('serverless-jest-plugin');
+const jestPlugin = require('@lagenhetsbyte/serverless-jest-plugin');
 const lambdaWrapper = jestPlugin.lambdaWrapper;
 const wrapped = lambdaWrapper.wrap(mod, { handler: 'hello' });
 
