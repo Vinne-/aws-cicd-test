@@ -18,7 +18,7 @@ service: hello-world-cicd-test
 # frameworkVersion: "=X.X.X"
 
 plugins:
-  - serverless-jest-plugin
+  - '@lagenhetsbyte/serverless-jest-plugin'
   
 provider:
   name: aws
